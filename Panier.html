@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AnimeGem</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="AnimeGem.css">
+</head>
+<body style="background-color: #FFE2E2;">
+    <header>
+        <nav>
+            <ul class="menu">
+                <li><a href="Panier.html">PANIER</a></li>
+                <li><a href="AnimeGem.html">ACCUEIL</a></li>
+                <li><a href="Contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1> Panier</h1>
+    <!-- Contenu principal -->
+    <main>
+        <section class="cart-container">
+            <h2>Votre panier</h2>
+            <div id="cart-items">
+                <!-- Les éléments du panier seront ajoutés dynamiquement ici -->
+            </div>
+        </section>
+
+        <!-- Total du panier -->
+        <div id="total-price-container">
+            <p id="total-price">Total : 0 €</p>
+            <button id="checkout-button">Passer à la caisse</button>
+        </div>
+    </main>
+    <footer>
+        <p>©<span id="year">2024</span>, AnimeGem.</p>
+    </footer>
+    <button id="scroll-to-top" style="display:none;">↑ Retour en haut</button>
+    <script src="JavaScript/global.js"></script>
+    <script src="JavaScript/panier.js"></script>
+    <script src="JavaScript/produits.js"></script>
+</body>
+</html>
